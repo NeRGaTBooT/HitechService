@@ -1,0 +1,476 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+input,
+textarea {
+    overflow: visible;
+}
+
+button,
+button:active,
+button:focus {
+    outline: none;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+/*================= HEADER =================*/
+
+.top_menu {
+    padding: 30px 0;
+    background: rgba(0, 0, 0, 0.7);
+    margin-bottom: 50px;
+}
+
+.logmob {
+    display: none;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-nav .nav-link {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #fff;
+    color: #fff;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-expand-lg .navbar-nav {
+    justify-content: space-between;
+    width: 70%;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #0b92d2;
+}
+
+.header {
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_window {
+    padding-bottom: 110px;
+}
+
+.row_flex {
+    display: flex;
+    align-items: center;
+}
+
+.offer_text h1 {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    text-shadow: 6px 6px 6px #000;
+}
+
+.offer_text h1 span {
+    color: #0b92d2;
+}
+
+.offer_text p {
+    font-size: 20px;
+    margin-top: 20px;
+    text-shadow: 6px 6px 6px #000;
+}
+
+.form form {
+    width: 100%;
+    padding: 15px 30px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.form form input,
+.form form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.form form textarea {
+    resize: none;
+}
+
+.form form input {
+    height: 40px;
+}
+
+.form p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.form form .form_title_two {
+    text-align: left;
+}
+
+.form_btn {
+    background-color: #0b92d2;
+    transition: all ease 0.3s;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form_btn:hover {
+    background-color: #4dc1f7;
+}
+
+
+/*================= END HEADER =================*/
+
+
+/*================= SECTION1 =================*/
+
+.title {
+    color: #0b92d2;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section1 {
+    padding: 60px 0;
+    color: #525252;
+}
+
+.section1 img {
+    width: 100%;
+    height: auto;
+}
+
+.section1 p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.section1 p {
+    margin-bottom: 20px;
+}
+
+
+/*================= END SECTION1 =================*/
+
+
+/*================= SECTION2 =================*/
+
+.section2 {
+    background-color: #0b92d2;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.section2 .title {
+    color: #fff;
+}
+
+.section2_descr {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+/*================= END SECTION2 =================*/
+
+
+/*================= SECTION3 =================*/
+
+.section3 {
+    padding: 60px 0 10px 0;
+}
+
+.section3_item {
+    margin-bottom: 50px;
+}
+
+.item_circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    background-color: #0b92d2;
+    border-radius: 100%;
+    margin: 0 auto 20px auto;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.item_descr {
+    color: #525252;
+    text-align: center;
+}
+
+.item_title {
+    margin-bottom: 10px;
+}
+
+
+/*================= END SECTION3 =================*/
+
+
+/*================= SECTION4 =================*/
+
+.section4 {
+    color: #525252;
+    background-color: #0b92d2;
+    padding: 60px 0 45px 0;
+}
+
+.section4 .title {
+    color: #fff;
+}
+
+.accordion-button {
+    display: block;
+    text-align: center;
+}
+
+.accordion-body {
+    display: flex;
+}
+
+.flex-child {
+    text-align: center;
+    padding: 15px;
+    width: 50%;
+    white-space: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.card_title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.accordion-item {
+    margin-bottom: 15px;
+}
+
+
+/*================= END SECTION4 =================*/
+
+
+/*================= SECTION5 =================*/
+
+.section5 {
+    padding: 60px 0;
+}
+
+.slider_item img {
+    margin: 0 auto;
+}
+
+.slider .slider_title {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    color: #525252;
+    margin-top: 20px;
+}
+
+.slider .row_flex {
+    justify-content: space-between;
+}
+
+.slider {
+    position: relative;
+    padding: 0px 60px;
+    /*// поля между стрелкой и краем слайдера*/
+}
+
+.slider .slick-arrow {
+    position: absolute;
+    border: none;
+    top: 50%;
+    /* выравнивание по вертикали*/
+    margin: -15px 0 0 0;
+    /* корректировка  вертикального выравнивания*/
+    z-index: 2;
+    /* стрелки сверху картинок*/
+    font-size: 0;
+    /* убираем надпись на дефолтной стрелке*/
+    width: 30px;
+    /* ширина стрелки*/
+    height: 50px;
+    /* высота стрелки*/
+}
+
+.slider .slick-arrow.slick-prev {
+    left: 0;
+    /* левая стрелка остается с левой стороны слайдера*/
+    background: url('../img/left.svg') 0 0 / 100% no-repeat;
+}
+
+.slider .slick-arrow.slick-next {
+    right: 0;
+    /* правая стрелка переместилась справа от слайдера*/
+    background: url('../img/right.svg') 0 0 / 100% no-repeat;
+}
+
+
+/*================= END SECTION5 =================*/
+
+
+/*================= FOOTER =================*/
+
+.footer {
+    background-color: #0b92d2;
+    padding: 60px 0;
+    text-align: justify;
+}
+
+.block_title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.block_descr,
+.block_time {
+    font-size: 14px;
+}
+
+.block_time {
+    display: flex;
+}
+
+.day {
+    margin-right: 30px;
+}
+
+
+/*================= END FOOTER =================*/
+
+.nav_menu_burger ul {
+    display: none;
+}
+
+.btn_burger {
+    display: none;
+    border: none;
+    background-color: inherit;
+    font-weight: bold;
+    font-size: 40px;
+    color: #0b92d2;
+}
+
+
+/*Responsive*/
+
+
+/* 992px - 1200px */
+
+@media screen and (max-width: 1200px) {
+    .footer_block {
+        margin-bottom: 20px
+    }
+}
+
+
+/* 768px - 992px */
+
+@media screen and (max-width: 992px) {
+    .offer_text {
+        text-align: center;
+        margin-bottom: 20px
+    }
+}
+
+
+/* 576px - 768px */
+
+@media screen and (max-width: 768px) {
+    .offer_text h1 {
+        font-size: 40px;
+        line-height: 50px
+    }
+    .offer_text p {
+        font-size: 15px
+    }
+    .section1 p,
+    .section2 p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .block_descr,
+    .block_time {
+        font-size: 12px;
+    }
+}
+
+
+/* 320px - 576px */
+
+@media screen and (max-width: 576px) {
+    .logo {
+        display: none
+    }
+    .logmob {
+        display: block
+    }
+    .title {
+        font-size: 25px
+    }
+    .block_descr,
+    .block_time {
+        font-size: 12px;
+    }
+}
